@@ -56,13 +56,13 @@ body {
 
 .paginacion button {
 	cursor: pointer;
-	border: 5px, 2px, 5px, 10px;
+	border: 5px, 5px, 10px, 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	height: 50px;
-	width: 200px;
+	height: 40px;
+	width: 250px;
 	background: #091ab8;
 	color: #fff;
 	border-radius: 100px;
@@ -72,7 +72,9 @@ body {
 }
 
 .paginacion button:hover {
-	background: #736980;
+	background: #ffff;
+    color: rgb(34, 13, 228);
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1920px){
